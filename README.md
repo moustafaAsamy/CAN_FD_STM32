@@ -2,7 +2,7 @@
 
 the first thing in creating a driver #define all the configuration in a readable and maintanable way so this process can ease the devolompent process.
 
-and its divided into 5 areas   
+and its divided into 6 areas   
 
 1:  
 
@@ -22,10 +22,12 @@ MASK= 1<<read_shift
 
 3 : containers 
 
-4: 
+4: interfaces 
 function declearations segmented based on the functionalites 
 
 for exapmle :
 
 5: macros for code checking 
+
+6: the function return status (resourse busy , done , fail , pending)
 

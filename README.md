@@ -2,7 +2,7 @@
 
 the first thing in creating a driver #define all the configuration in a readable and maintanable way so this process can ease the devolompent process.
 
-and its divided into 6 areas   
+and its divided into 7 areas   
 
 1:  
 
@@ -30,4 +30,17 @@ for exapmle :
 5: macros for code checking 
 
 6: the function return status (resourse busy , done , fail , pending)
+
+
+
+7-the access methode
+#define HWREG(x)                        (*((volatile uint32_t *)(x)))
+
+so you need a file for base address and one for each module 
+        
+        
+        
+        
+        
+        
 
